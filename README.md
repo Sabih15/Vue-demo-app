@@ -1,7 +1,3 @@
-Absolutely! Here’s a clean, professional **GitHub README description** for your app:
-
----
-
 # Vue 3 Authentication & Dashboard App
 
 A **full-featured Vue 3 TypeScript application** demonstrating authentication, role-based access, admin controls, dashboard features, and API integration. Built to showcase **realistic enterprise-style functionality** in a frontend application.
