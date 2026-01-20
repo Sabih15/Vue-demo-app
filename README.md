@@ -1,10 +1,57 @@
-<<<<<<< HEAD
-# Vue-demo-app
-This is a Vue 3 + TypeScript demo app designed to showcase frontend features you’d find in enterprise applications. It includes authentication with role-based access, admin-only user management, and a fun Pokemon page with API integration and CRUD operations.
-=======
-# Vue 3 + TypeScript + Vite
+Absolutely! Here’s a clean, professional **GitHub README description** for your app:
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+---
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
->>>>>>> 4efd65b8c27a1a3ad330c6c5aa6cc518b44de3ce
+# Vue 3 Authentication & Dashboard App
+
+A **full-featured Vue 3 TypeScript application** demonstrating authentication, role-based access, admin controls, dashboard features, and API integration. Built to showcase **realistic enterprise-style functionality** in a frontend application.
+
+---
+
+## Features
+
+* **Authentication**
+
+  * Login / Logout
+  * Role-based access (Admin / User)
+  * Protected routes
+
+* **Dashboard**
+
+  * User profile summary
+  * Role badge display
+  * Last login timestamp
+  * Recent activity list [mock]
+  * Reusable dashboard cards
+
+* **Admin Panel**
+
+  * User management (view all users)
+  * Change user roles [mock]
+  * Enable / disable user accounts [mock]
+  * Role-based route protection
+
+* **Pokemon Page**
+
+  * Fetch Pokemon data from [PokéAPI](https://pokeapi.co/)
+  * Add / remove favorites (CRUD)
+  * Favorites persist in `localStorage`
+  * Error handling for invalid Pokémon
+
+* **UI & UX**
+
+  * Responsive, clean layout
+  * Navbar with user dropdown
+  * Dropdown shows role-based links
+  * Simple, modern CSS styling
+
+---
+
+## Tech Stack
+
+* **Frontend:** Vue 3, TypeScript, Composition API
+* **State Management:** Pinia
+* **Routing:** Vue Router
+* **API Requests:** Axios
+* **Styling:** Custom CSS
+* **Persistence:** localStorage for mock data
